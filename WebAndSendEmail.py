@@ -70,7 +70,7 @@ while True:
         print("Extracting URL's content...")  
         extract_content(url)
         send_email()
-        sys.exit()
+        continue
     # User picks to extract content to save to local file
     elif user == "2":
         url = input("Enter the URL you would like to extract:\n")
