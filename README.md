@@ -1,10 +1,17 @@
 # Web Scraping program that can send to email and save to local folder
 
-This is a beginner web scraping project inspired by @amrrs on Github but with additional features which is saving the file onto local disk
+This is a beginner web scraping project inspired by other web scraping projects on Github but with additional features which is saving the file onto local disk
 
 The python libraries used are:
 - requests
-- BeautifulSoup 
+- BeautifulSoup
+- os
+- sys
+- datetime
+- smtplib
+- and etc.
+
+(NOTE: I forgot to set up a virtual environment so my requirements.txt is a bit messy, but you can just easily manually install each module)
 
 Instructions:
 1. This program asks for URL input (unfortunately, because web scaping is fragile, it only works for hackernews website)
